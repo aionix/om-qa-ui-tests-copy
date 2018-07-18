@@ -1,0 +1,10 @@
+---
+smoke_qa_chrome: --tags @smoke --color -r features --format html --out reports/report.html --format pretty TEST_ENV=QA BROWSER=CHROME
+parallel_qa: --tags @parallel --color --format html --out reports/report<%= ENV['TEST_ENV_NUMBER'] %>.html --format pretty TEST_ENV=QA BROWSER=CHROME
+implemented_qa:  --tags @implemented --color -r features --format html --out reports/report.html --format pretty TEST_ENV=QA BROWSER=CHROME
+parallel_implemented_qa_chrome: --tags @implemented --color --format html --out reports/report<%= ENV['TEST_ENV_NUMBER'] %>.html --format pretty TEST_ENV=QA BROWSER=CHROME
+
+smoke_qa_ie: --tags @smoke --color -r features --format html --out reports/report.html --format pretty TEST_ENV=QA BROWSER=IE
+parallel_ie_qa: --tags @parallel --color --format html --out reports/report<%= ENV['TEST_ENV_NUMBER'] %>.html --format pretty TEST_ENV=QA BROWSER=IE
+implemented_qa_ie:  --tags @implemented --color -r features --format html --out reports/report.html --format pretty TEST_ENV=QA BROWSER=IE
+parallel_implemented_qa_ie: --tags @implemented --color --format html --out reports/report<%= ENV['TEST_ENV_NUMBER'] %>.html --format pretty TEST_ENV=QA BROWSER=IE

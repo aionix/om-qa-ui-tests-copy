@@ -1,0 +1,13 @@
+source 'http://rubygems.org'
+
+gem 'capybara', '=2.16.0'
+gem 'chromedriver-helper'
+gem 'clipboard'
+gem 'cucumber', '=3.0.2'
+gem 'httpclient'
+gem 'iedriverserver-helper'
+gem 'parallel_tests'
+gem 'rspec', '=3.7.0'
+gem 'selenium-webdriver', '=3.13.0'
+gem 'site_prism', '=2.9'
+gem 'tiny_tds'

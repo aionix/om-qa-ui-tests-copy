@@ -1,0 +1,25 @@
+
+dev:
+    host: 'https://dbusinesscaseaccelerator.deloitte.com'
+    domain: 'USDEV\'
+    regular user:
+                    user_name: 'bca_user'
+                    user_password: 'Portal123!'
+qa:
+    host: 'https://qbusinesscaseaccelerator.deloitte.com'
+    domain: 'USQAEX\'
+    regular user:
+                user_name: 'bca_user'
+                user_password: '9U4ehW%#dE3'
+qa2:
+    host: 'http://localhost:8090/addressbook/group.php'
+    domain: ''
+    regular user:
+                user_name: 'admin'
+                user_password: 'secret'
+
+data_base:
+          server_host: 'ussltc7861v.prod.sltc.com'
+          user: 'BCAUser'
+          password: '123qweasd!@#'
+          data_base: 'BCA'
