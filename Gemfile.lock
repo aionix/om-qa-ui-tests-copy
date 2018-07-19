@@ -54,7 +54,7 @@ GEM
     nokogiri (1.8.4-x86-mingw32)
       mini_portile2 (~> 2.3.0)
     parallel (1.12.1)
-    parallel_tests (2.21.3)
+    parallel_tests (2.22.0)
       parallel
     public_suffix (3.0.2)
     rack (2.0.5)
