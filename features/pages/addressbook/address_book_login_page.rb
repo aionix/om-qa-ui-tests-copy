@@ -41,7 +41,7 @@ class AddressBookLoginPage < BasePage
   end
 
   def delete_group
-    find(:xpath, "//*[@id='content']/form/span[1]/input1").click
+    find(:xpath, "//*[@id='content']/form/span[1]/input").click
     sleep(3)
     delete_group_button.click
     wait_until_window_after_gr_creation_visible(10)
