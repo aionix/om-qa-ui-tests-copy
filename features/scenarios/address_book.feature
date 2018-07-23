@@ -1,6 +1,6 @@
 Feature: create a group and verify it was created
 
-  #@debug
+  @debug
   Scenario: User checks page is opened
     Given user opens address book in web-browser
     When user creates a group with such parameters:
